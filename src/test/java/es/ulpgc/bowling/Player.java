@@ -11,6 +11,7 @@ public class Player {
         this.frames = 10;
     }
 
-    public int getPuntuacion(int puntuacion){ return this.puntuacion; }
-    public String getNombre(int nombre){ return this.nombre; }
+    public int getPuntuacion(){ return this.puntuacion; }
+    public String getNombre(){ return this.nombre; }
+    public int getFrames(){ return this.frames; }
 }
